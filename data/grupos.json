@@ -1,0 +1,124 @@
+{
+  "grupos": [
+    {
+      "id": "A",
+      "selecoes": ["MEX", "RSA", "KOR", "CZE"],
+      "classificacao": [
+        { "codigo": "MEX", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "RSA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "KOR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "CZE", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "B",
+      "selecoes": ["CAN", "BIH", "QAT", "SUI"],
+      "classificacao": [
+        { "codigo": "CAN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "BIH", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "QAT", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "SUI", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "C",
+      "selecoes": ["BRA", "MAR", "SCO", "HAI"],
+      "classificacao": [
+        { "codigo": "BRA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "MAR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "SCO", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "HAI", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "D",
+      "selecoes": ["USA", "PAR", "AUS", "TUR"],
+      "classificacao": [
+        { "codigo": "USA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "PAR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "AUS", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "TUR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "E",
+      "selecoes": ["GER", "CUW", "CIV", "ECU"],
+      "classificacao": [
+        { "codigo": "GER", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "CUW", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "CIV", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "ECU", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "F",
+      "selecoes": ["NED", "JPN", "SWE", "TUN"],
+      "classificacao": [
+        { "codigo": "NED", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "JPN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "SWE", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "TUN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "G",
+      "selecoes": ["BEL", "EGY", "IRN", "NZL"],
+      "classificacao": [
+        { "codigo": "BEL", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "EGY", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "IRN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "NZL", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "H",
+      "selecoes": ["ESP", "CPV", "KSA", "URU"],
+      "classificacao": [
+        { "codigo": "ESP", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "CPV", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "KSA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "URU", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "I",
+      "selecoes": ["FRA", "SEN", "IRQ", "NOR"],
+      "classificacao": [
+        { "codigo": "FRA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "SEN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "IRQ", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "NOR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "J",
+      "selecoes": ["ARG", "ALG", "AUT", "JOR"],
+      "classificacao": [
+        { "codigo": "ARG", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "ALG", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "AUT", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "JOR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "K",
+      "selecoes": ["POR", "COD", "UZB", "COL"],
+      "classificacao": [
+        { "codigo": "POR", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "COD", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "UZB", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "COL", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    },
+    {
+      "id": "L",
+      "selecoes": ["ENG", "CRO", "GHA", "PAN"],
+      "classificacao": [
+        { "codigo": "ENG", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "CRO", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "GHA", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 },
+        { "codigo": "PAN", "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0, "sg": 0, "pts": 0 }
+      ]
+    }
+  ]
+}

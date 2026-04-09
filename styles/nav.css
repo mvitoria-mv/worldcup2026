@@ -1,0 +1,70 @@
+/* ============================================================
+   TAB NAV — Apple-style ultra-thin glass bar
+   ============================================================ */
+.tab-nav {
+  background: rgba(8, 9, 16, 0.60);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  position: sticky;
+  top: 45px;   /* abaixo do header ~45px */
+  z-index: 99;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tab-nav::-webkit-scrollbar { display: none; }
+
+.tab-link {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+  padding: 12px 18px;
+  font-family: 'Space Grotesk', -apple-system, 'Segoe UI', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  color: rgba(245, 245, 247, 0.38);
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.18s ease, border-color 0.18s ease;
+  position: relative;
+}
+
+.tab-link:hover {
+  color: rgba(245, 245, 247, 0.72);
+}
+
+.tab-link.active {
+  color: var(--copa-gold, #FFD700);
+  font-weight: 600;
+  border-bottom-color: var(--copa-gold, #FFD700);
+}
+
+/* VIP tab with subtle gold tint */
+.tab-link--vip {
+  color: rgba(255, 215, 0, 0.50);
+}
+.tab-link--vip:hover {
+  color: var(--copa-gold, #FFD700);
+}
+.tab-link--vip.active {
+  color: var(--copa-gold, #FFD700);
+  border-bottom-color: var(--copa-gold, #FFD700);
+}
+
+/* ============================================================
+   DESKTOP — abas centralizadas, sem scroll
+   ============================================================ */
+@media (min-width: 768px) {
+  .tab-nav {
+    justify-content: center;
+    overflow-x: visible;
+  }
+  .tab-link {
+    padding: 13px 24px;
+    font-size: 13px;
+  }
+}

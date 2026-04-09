@@ -1,0 +1,397 @@
+/* ============================================================
+   ÁREA DE MEMBROS — Styles
+   ============================================================ */
+
+/* ── Login ─────────────────────────────────────────────────── */
+.m-login-wrap {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-md);
+  animation: fadeUp 0.5s ease both;
+}
+
+.m-login-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 2px solid var(--copa-red);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+}
+
+.m-login-icon {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: var(--space-md);
+  display: block;
+}
+
+.m-login-title {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.m-login-sub {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.m-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.m-login-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.m-login-field label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+}
+
+.m-login-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: var(--radius-sm);
+  padding: 11px var(--space-md);
+  font-family: var(--font-body);
+  font-size: var(--font-size-md);
+  color: var(--color-text);
+  width: 100%;
+  transition: border-color 0.18s, background 0.18s;
+  outline: none;
+}
+.m-login-input::placeholder { color: var(--color-text-dim); }
+.m-login-input:focus {
+  border-color: var(--copa-red);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.m-login-error {
+  font-size: var(--font-size-xs);
+  color: var(--color-danger);
+  text-align: center;
+  padding: 8px 12px;
+  background: rgba(255, 67, 58, 0.08);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 67, 58, 0.18);
+}
+
+.m-login-btn {
+  background: var(--copa-red);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 13px var(--space-md);
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.1s;
+  margin-top: var(--space-xs);
+}
+.m-login-btn:hover  { background: #c4002a; }
+.m-login-btn:active { transform: scale(0.98); }
+
+.m-login-hint {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-dim);
+  text-align: center;
+}
+.m-login-hint code {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  padding: 2px 7px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  color: var(--copa-gold);
+  font-size: 11px;
+}
+
+/* ── Members header ─────────────────────────────────────────── */
+.m-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) 0 var(--space-md);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: var(--space-md);
+}
+
+.m-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.m-header-badge {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--copa-red);
+  background: rgba(232, 0, 45, 0.08);
+  border: 1px solid rgba(232, 0, 45, 0.18);
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+}
+
+.m-header-user {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.m-logout-btn {
+  font-family: var(--font-body);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-pill);
+  padding: 5px 14px;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.m-logout-btn:hover {
+  color: var(--copa-red);
+  border-color: rgba(232, 0, 45, 0.30);
+}
+
+/* ── Stat cards ─────────────────────────────────────────────── */
+.m-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  animation: fadeUp 0.4s ease both;
+}
+
+@media (min-width: 600px) {
+  .m-stat-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+.m-stat-card {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  position: relative;
+  overflow: hidden;
+}
+.m-stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--copa-red), var(--copa-blue));
+}
+
+.m-stat-num {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 800;
+  color: var(--color-text);
+  line-height: 1;
+  margin-bottom: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.m-stat-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.m-stat-sub {
+  font-size: 10px;
+  color: var(--color-text-dim);
+  margin-top: 4px;
+}
+
+/* ── Charts grid ─────────────────────────────────────────────── */
+.m-charts-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  animation: fadeUp 0.45s ease both;
+}
+
+@media (min-width: 640px) {
+  .m-charts-grid { grid-template-columns: 1fr 1fr; }
+}
+
+.m-chart-card {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.m-chart-card--wide {
+  grid-column: 1 / -1;
+}
+
+.m-chart-title {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  margin-bottom: var(--space-sm);
+}
+
+.m-chart-wrap {
+  position: relative;
+  height: 220px;
+}
+
+.m-chart-wrap--sm {
+  height: 200px;
+}
+
+/* ── Data table area ─────────────────────────────────────────── */
+.m-data-header {
+  margin-bottom: var(--space-md);
+  animation: fadeUp 0.4s ease both;
+}
+
+.m-filters {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+.m-select {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--color-text);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: var(--radius-sm);
+  padding: 7px 32px 7px 12px;
+  font-family: var(--font-body);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='rgba(245,245,247,0.4)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  transition: border-color 0.15s;
+  outline: none;
+}
+.m-select:hover  { border-color: rgba(255, 255, 255, 0.20); }
+.m-select:focus  { border-color: var(--copa-red); }
+
+.m-count {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-dim);
+  margin-left: auto;
+}
+
+.m-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: var(--space-md);
+  animation: fadeUp 0.4s ease both;
+}
+
+/* Score cell centered */
+.m-table .p-score {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: var(--font-size-md);
+  font-weight: 800;
+  color: var(--copa-gold);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.m-table .p-year  { color: var(--copa-red); font-weight: 700; white-space: nowrap; }
+.m-table .p-stage { color: var(--color-text-muted); font-size: 11px; white-space: nowrap; }
+.m-table .p-home  { font-weight: 600; text-align: right; }
+.m-table .p-away  { font-weight: 600; }
+.m-table .p-city  { font-size: 11px; white-space: nowrap; }
+
+/* ── Pagination ──────────────────────────────────────────────── */
+.m-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: var(--space-md) 0;
+  flex-wrap: wrap;
+  animation: fadeUp 0.45s ease both;
+}
+
+.m-page-btn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--color-text-muted);
+  font-family: var(--font-body);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.m-page-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-text);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+.m-page-btn.active {
+  background: var(--copa-gold);
+  color: #000;
+  border-color: var(--copa-gold);
+  font-weight: 700;
+}
+.m-page-btn:disabled {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+.m-page-sep {
+  color: var(--color-text-dim);
+  padding: 0 4px;
+  font-size: var(--font-size-xs);
+}
+
+/* ── Artilheiros section note ────────────────────────────────── */
+.m-section-note {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-dim);
+  padding: var(--space-sm) 0 var(--space-md);
+  animation: fadeUp 0.4s ease both;
+}

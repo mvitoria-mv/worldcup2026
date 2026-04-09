@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copa do Mundo 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/nav.css" />
+  <link rel="stylesheet" href="styles/components.css" />
+  <!-- Chart.js (carregado antes dos módulos ES para que window.Chart esteja disponível) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-logo">
+        <span class="header-icon">⚽</span>
+        <div>
+          <span class="header-title">WORLD CUP</span>
+          <span class="header-year">2026</span>
+        </div>
+      </div>
+      <span class="header-host">USA · MEX · CAN</span>
+    </div>
+  </header>
+
+  <nav id="tab-nav" class="tab-nav" role="navigation" aria-label="Seções do site">
+    <a href="#home"         class="tab-link" data-section="home">Home</a>
+    <a href="#jogos"        class="tab-link" data-section="jogos">Jogos</a>
+    <a href="#grupos"       class="tab-link" data-section="grupos">Grupos</a>
+    <a href="#selecoes"     class="tab-link" data-section="selecoes">Seleções</a>
+    <a href="#estatisticas" class="tab-link" data-section="estatisticas">Estatísticas</a>
+    <a href="#historico"    class="tab-link" data-section="historico">Histórico</a>
+    <a href="#sedes"        class="tab-link" data-section="sedes">Sedes</a>
+    <a href="#membros"      class="tab-link tab-link--vip" data-section="membros">⭐ Membros</a>
+  </nav>
+
+  <main id="app" class="app-main" role="main">
+    <div class="spinner">Carregando…</div>
+  </main>
+
+  <script type="module" src="js/router.js"></script>
+</body>
+</html>

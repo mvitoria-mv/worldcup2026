@@ -1,0 +1,120 @@
+{
+  "recordes": {
+    "maior_artilheiro": { "nome": "Miroslav Klose", "selecao": "GER", "gols": 16, "edicoes": "2002–2014" },
+    "mais_gols_edicao": { "ano": 1954, "total": 140, "media_por_jogo": "5.38" },
+    "maior_goleada": { "jogo": "Hungria 10 × 1 El Salvador", "ano": 1982 },
+    "mais_titulos": { "selecao": "BRA", "titulos": 5 }
+  },
+  "copas": [
+    {
+      "ano": 1930, "sede": "Uruguai", "campeao": "URU", "vice": "ARG", "terceiro": "USA",
+      "artilheiro": { "nome": "Guillermo Stábile", "selecao": "ARG", "gols": 8 },
+      "total_gols": 70, "total_jogos": 18
+    },
+    {
+      "ano": 1934, "sede": "Itália", "campeao": "ITA", "vice": "CZE", "terceiro": "GER",
+      "artilheiro": { "nome": "Oldřich Nejedlý", "selecao": "CZE", "gols": 5 },
+      "total_gols": 70, "total_jogos": 17
+    },
+    {
+      "ano": 1938, "sede": "França", "campeao": "ITA", "vice": "HUN", "terceiro": "BRA",
+      "artilheiro": { "nome": "Leônidas", "selecao": "BRA", "gols": 7 },
+      "total_gols": 84, "total_jogos": 18
+    },
+    {
+      "ano": 1950, "sede": "Brasil", "campeao": "URU", "vice": "BRA", "terceiro": "SWE",
+      "artilheiro": { "nome": "Ademir", "selecao": "BRA", "gols": 9 },
+      "total_gols": 88, "total_jogos": 22
+    },
+    {
+      "ano": 1954, "sede": "Suíça", "campeao": "GER", "vice": "HUN", "terceiro": "AUT",
+      "artilheiro": { "nome": "Sándor Kocsis", "selecao": "HUN", "gols": 11 },
+      "total_gols": 140, "total_jogos": 26
+    },
+    {
+      "ano": 1958, "sede": "Suécia", "campeao": "BRA", "vice": "SWE", "terceiro": "FRA",
+      "artilheiro": { "nome": "Just Fontaine", "selecao": "FRA", "gols": 13 },
+      "total_gols": 126, "total_jogos": 35
+    },
+    {
+      "ano": 1962, "sede": "Chile", "campeao": "BRA", "vice": "CZE", "terceiro": "CHI",
+      "artilheiro": { "nome": "Garrincha / Vavá (e outros)", "selecao": "BRA", "gols": 4 },
+      "total_gols": 89, "total_jogos": 32
+    },
+    {
+      "ano": 1966, "sede": "Inglaterra", "campeao": "ENG", "vice": "GER", "terceiro": "POR",
+      "artilheiro": { "nome": "Eusébio", "selecao": "POR", "gols": 9 },
+      "total_gols": 89, "total_jogos": 32
+    },
+    {
+      "ano": 1970, "sede": "México", "campeao": "BRA", "vice": "ITA", "terceiro": "GER",
+      "artilheiro": { "nome": "Gerd Müller", "selecao": "GER", "gols": 10 },
+      "total_gols": 95, "total_jogos": 32
+    },
+    {
+      "ano": 1974, "sede": "Alemanha Ocidental", "campeao": "GER", "vice": "NED", "terceiro": "POL",
+      "artilheiro": { "nome": "Grzegorz Lato", "selecao": "POL", "gols": 7 },
+      "total_gols": 97, "total_jogos": 38
+    },
+    {
+      "ano": 1978, "sede": "Argentina", "campeao": "ARG", "vice": "NED", "terceiro": "BRA",
+      "artilheiro": { "nome": "Mario Kempes", "selecao": "ARG", "gols": 6 },
+      "total_gols": 102, "total_jogos": 38
+    },
+    {
+      "ano": 1982, "sede": "Espanha", "campeao": "ITA", "vice": "GER", "terceiro": "POL",
+      "artilheiro": { "nome": "Paolo Rossi", "selecao": "ITA", "gols": 6 },
+      "total_gols": 146, "total_jogos": 52
+    },
+    {
+      "ano": 1986, "sede": "México", "campeao": "ARG", "vice": "GER", "terceiro": "FRA",
+      "artilheiro": { "nome": "Gary Lineker", "selecao": "ENG", "gols": 6 },
+      "total_gols": 132, "total_jogos": 52
+    },
+    {
+      "ano": 1990, "sede": "Itália", "campeao": "GER", "vice": "ARG", "terceiro": "ITA",
+      "artilheiro": { "nome": "Salvatore Schillaci", "selecao": "ITA", "gols": 6 },
+      "total_gols": 115, "total_jogos": 52
+    },
+    {
+      "ano": 1994, "sede": "EUA", "campeao": "BRA", "vice": "ITA", "terceiro": "SWE",
+      "artilheiro": { "nome": "Hristo Stoichkov / Oleg Salenko", "selecao": "BUL", "gols": 6 },
+      "total_gols": 141, "total_jogos": 52
+    },
+    {
+      "ano": 1998, "sede": "França", "campeao": "FRA", "vice": "BRA", "terceiro": "CRO",
+      "artilheiro": { "nome": "Davor Šuker", "selecao": "CRO", "gols": 6 },
+      "total_gols": 171, "total_jogos": 64
+    },
+    {
+      "ano": 2002, "sede": "Coreia/Japão", "campeao": "BRA", "vice": "GER", "terceiro": "TUR",
+      "artilheiro": { "nome": "Ronaldo", "selecao": "BRA", "gols": 8 },
+      "total_gols": 161, "total_jogos": 64
+    },
+    {
+      "ano": 2006, "sede": "Alemanha", "campeao": "ITA", "vice": "FRA", "terceiro": "GER",
+      "artilheiro": { "nome": "Miroslav Klose", "selecao": "GER", "gols": 5 },
+      "total_gols": 147, "total_jogos": 64
+    },
+    {
+      "ano": 2010, "sede": "África do Sul", "campeao": "ESP", "vice": "NED", "terceiro": "GER",
+      "artilheiro": { "nome": "Thomas Müller / David Villa / Wesley Sneijder / Diego Forlán", "selecao": "GER", "gols": 5 },
+      "total_gols": 145, "total_jogos": 64
+    },
+    {
+      "ano": 2014, "sede": "Brasil", "campeao": "GER", "vice": "ARG", "terceiro": "NED",
+      "artilheiro": { "nome": "James Rodríguez", "selecao": "COL", "gols": 6 },
+      "total_gols": 171, "total_jogos": 64
+    },
+    {
+      "ano": 2018, "sede": "Rússia", "campeao": "FRA", "vice": "CRO", "terceiro": "BEL",
+      "artilheiro": { "nome": "Harry Kane", "selecao": "ENG", "gols": 6 },
+      "total_gols": 169, "total_jogos": 64
+    },
+    {
+      "ano": 2022, "sede": "Qatar", "campeao": "ARG", "vice": "FRA", "terceiro": "HRV",
+      "artilheiro": { "nome": "Kylian Mbappé", "selecao": "FRA", "gols": 8 },
+      "total_gols": 172, "total_jogos": 64
+    }
+  ]
+}

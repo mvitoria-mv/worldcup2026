@@ -1,0 +1,148 @@
+{
+  "sedes": [
+    {
+      "id": "azteca",
+      "estadio": "Estadio Azteca",
+      "cidade": "Cidade do México",
+      "pais": "México",
+      "capacidade": 72766,
+      "jogos": 5,
+      "destaque": "Jogo de abertura (11 Jun)"
+    },
+    {
+      "id": "bbva",
+      "estadio": "Estadio BBVA",
+      "cidade": "Monterrey",
+      "pais": "México",
+      "capacidade": 53500,
+      "jogos": 5,
+      "destaque": ""
+    },
+    {
+      "id": "akron",
+      "estadio": "Estadio Akron",
+      "cidade": "Guadalajara",
+      "pais": "México",
+      "capacidade": 45000,
+      "jogos": 5,
+      "destaque": ""
+    },
+    {
+      "id": "bmo",
+      "estadio": "BMO Field",
+      "cidade": "Toronto",
+      "pais": "Canadá",
+      "capacidade": 44315,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "bcplace",
+      "estadio": "BC Place",
+      "cidade": "Vancouver",
+      "pais": "Canadá",
+      "capacidade": 54500,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "metlife",
+      "estadio": "MetLife Stadium",
+      "cidade": "East Rutherford (Nova York)",
+      "pais": "EUA",
+      "capacidade": 82500,
+      "jogos": 8,
+      "destaque": "Final (19 Jul)"
+    },
+    {
+      "id": "att",
+      "estadio": "AT&T Stadium",
+      "cidade": "Arlington (Dallas)",
+      "pais": "EUA",
+      "capacidade": 80000,
+      "jogos": 9,
+      "destaque": "Maior número de jogos"
+    },
+    {
+      "id": "sofi",
+      "estadio": "SoFi Stadium",
+      "cidade": "Inglewood (Los Angeles)",
+      "pais": "EUA",
+      "capacidade": 70240,
+      "jogos": 7,
+      "destaque": ""
+    },
+    {
+      "id": "arrowhead",
+      "estadio": "Arrowhead Stadium",
+      "cidade": "Kansas City",
+      "pais": "EUA",
+      "capacidade": 76416,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "nrg",
+      "estadio": "NRG Stadium",
+      "cidade": "Houston",
+      "pais": "EUA",
+      "capacidade": 68311,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "mercedesbenz",
+      "estadio": "Mercedes-Benz Stadium",
+      "cidade": "Atlanta",
+      "pais": "EUA",
+      "capacidade": 67382,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "gillette",
+      "estadio": "Gillette Stadium",
+      "cidade": "Foxborough (Boston)",
+      "pais": "EUA",
+      "capacidade": 65878,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "lincoln",
+      "estadio": "Lincoln Financial Field",
+      "cidade": "Filadélfia",
+      "pais": "EUA",
+      "capacidade": 68532,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "hardrock",
+      "estadio": "Hard Rock Stadium",
+      "cidade": "Miami Gardens (Miami)",
+      "pais": "EUA",
+      "capacidade": 64767,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "lumen",
+      "estadio": "Lumen Field",
+      "cidade": "Seattle",
+      "pais": "EUA",
+      "capacidade": 68740,
+      "jogos": 6,
+      "destaque": ""
+    },
+    {
+      "id": "levis",
+      "estadio": "Levi's Stadium",
+      "cidade": "Santa Clara (San Francisco)",
+      "pais": "EUA",
+      "capacidade": 70909,
+      "jogos": 6,
+      "destaque": ""
+    }
+  ]
+}

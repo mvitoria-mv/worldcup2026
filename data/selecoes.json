@@ -1,0 +1,675 @@
+{
+  "selecoes": [
+    {
+      "codigo": "MEX", "nome": "México", "grupo": "A", "bandeira": "🇲🇽",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Guillermo Ochoa", "posicao": "GOL", "clube": "América", "numero": 1 },
+        { "nome": "Jorge Sánchez", "posicao": "DEF", "clube": "Ajax", "numero": 2 },
+        { "nome": "César Montes", "posicao": "DEF", "clube": "Monterrey", "numero": 3 },
+        { "nome": "Édson Álvarez", "posicao": "MEI", "clube": "West Ham", "numero": 5 },
+        { "nome": "Hirving Lozano", "posicao": "ATA", "clube": "PSV", "numero": 22 },
+        { "nome": "Santiago Giménez", "posicao": "ATA", "clube": "AC Milan", "numero": 9 },
+        { "nome": "Alexis Vega", "posicao": "MEI", "clube": "Guadalajara", "numero": 10 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "USA", "vitorias": 36, "empates": 18, "derrotas": 36 },
+        { "adversario": "BRA", "vitorias": 2, "empates": 4, "derrotas": 10 }
+      ]
+    },
+    {
+      "codigo": "RSA", "nome": "África do Sul", "grupo": "A", "bandeira": "🇿🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Ronwen Williams", "posicao": "GOL", "clube": "Mamelodi Sundowns", "numero": 1 },
+        { "nome": "Siyanda Xulu", "posicao": "DEF", "clube": "Mamelodi Sundowns", "numero": 5 },
+        { "nome": "Percy Tau", "posicao": "ATA", "clube": "Al Ahly", "numero": 10 },
+        { "nome": "Lyle Foster", "posicao": "ATA", "clube": "Burnley", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "KOR", "nome": "Coreia do Sul", "grupo": "A", "bandeira": "🇰🇷",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Kim Seung-gyu", "posicao": "GOL", "clube": "Vissel Kobe", "numero": 1 },
+        { "nome": "Kim Min-jae", "posicao": "DEF", "clube": "Bayern München", "numero": 3 },
+        { "nome": "Lee Jae-sung", "posicao": "MEI", "clube": "Mainz 05", "numero": 7 },
+        { "nome": "Son Heung-min", "posicao": "ATA", "clube": "Tottenham", "numero": 7 },
+        { "nome": "Hwang Hee-chan", "posicao": "ATA", "clube": "Wolverhampton", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "CZE", "nome": "República Tcheca", "grupo": "A", "bandeira": "🇨🇿",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Jiří Staněk", "posicao": "GOL", "clube": "Atlético de Madrid", "numero": 1 },
+        { "nome": "Vladimír Coufal", "posicao": "DEF", "clube": "West Ham", "numero": 2 },
+        { "nome": "Tomáš Souček", "posicao": "MEI", "clube": "West Ham", "numero": 5 },
+        { "nome": "Patrik Schick", "posicao": "ATA", "clube": "Bayer Leverkusen", "numero": 13 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "CAN", "nome": "Canadá", "grupo": "B", "bandeira": "🇨🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Maxime Crépeau", "posicao": "GOL", "clube": "LA Galaxy", "numero": 16 },
+        { "nome": "Alistair Johnston", "posicao": "DEF", "clube": "Celtic", "numero": 2 },
+        { "nome": "Tajon Buchanan", "posicao": "MEI", "clube": "Inter de Milão", "numero": 11 },
+        { "nome": "Alphonso Davies", "posicao": "DEF", "clube": "Bayern München", "numero": 3 },
+        { "nome": "Jonathan David", "posicao": "ATA", "clube": "Lille", "numero": 20 },
+        { "nome": "Cyle Larin", "posicao": "ATA", "clube": "Real Valladolid", "numero": 7 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "BIH", "nome": "Bósnia e Herzegovina", "grupo": "B", "bandeira": "🇧🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Ibrahim Šehić", "posicao": "GOL", "clube": "FK Sarajevo", "numero": 1 },
+        { "nome": "Edin Džeko", "posicao": "ATA", "clube": "Fenerbahçe", "numero": 9 },
+        { "nome": "Miralem Pjanić", "posicao": "MEI", "clube": "Sharjah", "numero": 8 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "QAT", "nome": "Qatar", "grupo": "B", "bandeira": "🇶🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Meshaal Barsham", "posicao": "GOL", "clube": "Al Sadd", "numero": 1 },
+        { "nome": "Abdelkarim Hassan", "posicao": "DEF", "clube": "Al Sadd", "numero": 3 },
+        { "nome": "Akram Afif", "posicao": "ATA", "clube": "Al Sadd", "numero": 11 },
+        { "nome": "Almoez Ali", "posicao": "ATA", "clube": "Al Duhail", "numero": 19 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "SUI", "nome": "Suíça", "grupo": "B", "bandeira": "🇨🇭",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Yann Sommer", "posicao": "GOL", "clube": "Inter de Milão", "numero": 1 },
+        { "nome": "Manuel Akanji", "posicao": "DEF", "clube": "Manchester City", "numero": 5 },
+        { "nome": "Granit Xhaka", "posicao": "MEI", "clube": "Bayer Leverkusen", "numero": 10 },
+        { "nome": "Xherdan Shaqiri", "posicao": "MEI", "clube": "Chicago Fire", "numero": 23 },
+        { "nome": "Breel Embolo", "posicao": "ATA", "clube": "Monaco", "numero": 7 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "BRA", "nome": "Brasil", "grupo": "C", "bandeira": "🇧🇷",
+      "titulos_copa": 5, "anos_titulo": [1958, 1962, 1970, 1994, 2002],
+      "elenco": [
+        { "nome": "Alisson Becker", "posicao": "GOL", "clube": "Liverpool", "numero": 1 },
+        { "nome": "Éderson", "posicao": "GOL", "clube": "Manchester City", "numero": 25 },
+        { "nome": "Éder Militão", "posicao": "DEF", "clube": "Real Madrid", "numero": 3 },
+        { "nome": "Marquinhos", "posicao": "DEF", "clube": "PSG", "numero": 4 },
+        { "nome": "Gabriel Magalhães", "posicao": "DEF", "clube": "Arsenal", "numero": 15 },
+        { "nome": "Danilo", "posicao": "DEF", "clube": "Juventus", "numero": 2 },
+        { "nome": "Casemiro", "posicao": "MEI", "clube": "Manchester United", "numero": 5 },
+        { "nome": "Bruno Guimarães", "posicao": "MEI", "clube": "Newcastle", "numero": 17 },
+        { "nome": "Lucas Paquetá", "posicao": "MEI", "clube": "West Ham", "numero": 10 },
+        { "nome": "Rodrygo", "posicao": "ATA", "clube": "Real Madrid", "numero": 11 },
+        { "nome": "Raphinha", "posicao": "ATA", "clube": "Barcelona", "numero": 19 },
+        { "nome": "Vinicius Jr", "posicao": "ATA", "clube": "Real Madrid", "numero": 7 },
+        { "nome": "Endrick", "posicao": "ATA", "clube": "Real Madrid", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "ARG", "vitorias": 44, "empates": 25, "derrotas": 41 },
+        { "adversario": "GER", "vitorias": 12, "empates": 6, "derrotas": 4 },
+        { "adversario": "FRA", "vitorias": 3, "empates": 3, "derrotas": 3 },
+        { "adversario": "ITA", "vitorias": 3, "empates": 2, "derrotas": 2 },
+        { "adversario": "ESP", "vitorias": 4, "empates": 3, "derrotas": 4 }
+      ]
+    },
+    {
+      "codigo": "MAR", "nome": "Marrocos", "grupo": "C", "bandeira": "🇲🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Yassine Bounou", "posicao": "GOL", "clube": "Al-Hilal", "numero": 1 },
+        { "nome": "Achraf Hakimi", "posicao": "DEF", "clube": "PSG", "numero": 2 },
+        { "nome": "Romain Saïss", "posicao": "DEF", "clube": "Besiktas", "numero": 5 },
+        { "nome": "Sofyan Amrabat", "posicao": "MEI", "clube": "Fiorentina", "numero": 4 },
+        { "nome": "Hakim Ziyech", "posicao": "MEI", "clube": "Galatasaray", "numero": 7 },
+        { "nome": "Youssef En-Nesyri", "posicao": "ATA", "clube": "Fenerbahçe", "numero": 19 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "SCO", "nome": "Escócia", "grupo": "C", "bandeira": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Angus Gunn", "posicao": "GOL", "clube": "Norwich City", "numero": 1 },
+        { "nome": "Andrew Robertson", "posicao": "DEF", "clube": "Liverpool", "numero": 3 },
+        { "nome": "Scott McTominay", "posicao": "MEI", "clube": "Napoli", "numero": 5 },
+        { "nome": "John McGinn", "posicao": "MEI", "clube": "Aston Villa", "numero": 7 },
+        { "nome": "Che Adams", "posicao": "ATA", "clube": "Torino", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "HAI", "nome": "Haiti", "grupo": "C", "bandeira": "🇭🇹",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Josué Duverger", "posicao": "GOL", "clube": "Violette AC", "numero": 1 },
+        { "nome": "Steeven Saba", "posicao": "MEI", "clube": "Sporting CP", "numero": 10 },
+        { "nome": "Duckens Nazon", "posicao": "ATA", "clube": "Saint-Étienne", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "USA", "nome": "Estados Unidos", "grupo": "D", "bandeira": "🇺🇸",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Matt Turner", "posicao": "GOL", "clube": "Crystal Palace", "numero": 1 },
+        { "nome": "Sergiño Dest", "posicao": "DEF", "clube": "PSV", "numero": 2 },
+        { "nome": "Tyler Adams", "posicao": "MEI", "clube": "Bournemouth", "numero": 4 },
+        { "nome": "Weston McKennie", "posicao": "MEI", "clube": "Juventus", "numero": 8 },
+        { "nome": "Christian Pulisic", "posicao": "ATA", "clube": "AC Milan", "numero": 10 },
+        { "nome": "Giovanni Reyna", "posicao": "ATA", "clube": "Borussia Dortmund", "numero": 7 },
+        { "nome": "Folarin Balogun", "posicao": "ATA", "clube": "Monaco", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "MEX", "vitorias": 36, "empates": 18, "derrotas": 36 }
+      ]
+    },
+    {
+      "codigo": "PAR", "nome": "Paraguai", "grupo": "D", "bandeira": "🇵🇾",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Antony Silva", "posicao": "GOL", "clube": "Independiente FBC", "numero": 1 },
+        { "nome": "Julio Enciso", "posicao": "ATA", "clube": "Brighton", "numero": 22 },
+        { "nome": "Miguel Almirón", "posicao": "MEI", "clube": "Atlanta United", "numero": 10 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "AUS", "nome": "Austrália", "grupo": "D", "bandeira": "🇦🇺",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Mat Ryan", "posicao": "GOL", "clube": "Real Sociedad", "numero": 1 },
+        { "nome": "Harry Souttar", "posicao": "DEF", "clube": "Leicester City", "numero": 6 },
+        { "nome": "Aaron Mooy", "posicao": "MEI", "clube": "Celtic", "numero": 13 },
+        { "nome": "Martin Boyle", "posicao": "ATA", "clube": "Ittihad", "numero": 7 },
+        { "nome": "Mitchell Duke", "posicao": "ATA", "clube": "Macarthur FC", "numero": 20 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "TUR", "nome": "Turquia", "grupo": "D", "bandeira": "🇹🇷",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Mert Günok", "posicao": "GOL", "clube": "Beşiktaş", "numero": 23 },
+        { "nome": "Merih Demiral", "posicao": "DEF", "clube": "Al-Qadsiah", "numero": 3 },
+        { "nome": "Hakan Çalhanoğlu", "posicao": "MEI", "clube": "Inter de Milão", "numero": 10 },
+        { "nome": "Arda Güler", "posicao": "MEI", "clube": "Real Madrid", "numero": 20 },
+        { "nome": "Kerem Aktürkoğlu", "posicao": "ATA", "clube": "Galatasaray", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "GER", "nome": "Alemanha", "grupo": "E", "bandeira": "🇩🇪",
+      "titulos_copa": 4, "anos_titulo": [1954, 1974, 1990, 2014],
+      "elenco": [
+        { "nome": "Manuel Neuer", "posicao": "GOL", "clube": "Bayern München", "numero": 1 },
+        { "nome": "Antonio Rüdiger", "posicao": "DEF", "clube": "Real Madrid", "numero": 2 },
+        { "nome": "Joshua Kimmich", "posicao": "MEI", "clube": "Bayern München", "numero": 6 },
+        { "nome": "Toni Kroos", "posicao": "MEI", "clube": "Real Madrid", "numero": 8 },
+        { "nome": "Florian Wirtz", "posicao": "MEI", "clube": "Bayer Leverkusen", "numero": 10 },
+        { "nome": "Kai Havertz", "posicao": "ATA", "clube": "Arsenal", "numero": 7 },
+        { "nome": "Leroy Sané", "posicao": "ATA", "clube": "Bayern München", "numero": 19 },
+        { "nome": "Thomas Müller", "posicao": "ATA", "clube": "Bayern München", "numero": 25 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "BRA", "vitorias": 4, "empates": 6, "derrotas": 12 },
+        { "adversario": "ARG", "vitorias": 18, "empates": 9, "derrotas": 16 }
+      ]
+    },
+    {
+      "codigo": "CUW", "nome": "Curaçao", "grupo": "E", "bandeira": "🇨🇼",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Eloy Room", "posicao": "GOL", "clube": "Columbus Crew", "numero": 1 },
+        { "nome": "Leandro Bacuna", "posicao": "MEI", "clube": "Cardiff City", "numero": 7 },
+        { "nome": "Cuco Martina", "posicao": "DEF", "clube": "FC Emmen", "numero": 5 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "CIV", "nome": "Costa do Marfim", "grupo": "E", "bandeira": "🇨🇮",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Yahia Fofana", "posicao": "GOL", "clube": "Monaco", "numero": 1 },
+        { "nome": "Serge Aurier", "posicao": "DEF", "clube": "Nottingham Forest", "numero": 24 },
+        { "nome": "Franck Kessié", "posicao": "MEI", "clube": "Al-Ahli", "numero": 8 },
+        { "nome": "Wilfried Zaha", "posicao": "ATA", "clube": "Galatasaray", "numero": 17 },
+        { "nome": "Nicolas Pépé", "posicao": "ATA", "clube": "Nice", "numero": 9 },
+        { "nome": "Sébastien Haller", "posicao": "ATA", "clube": "Borussia Dortmund", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "ECU", "nome": "Equador", "grupo": "E", "bandeira": "🇪🇨",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Alexander Domínguez", "posicao": "GOL", "clube": "LDU Quito", "numero": 1 },
+        { "nome": "Piero Hincapié", "posicao": "DEF", "clube": "Bayer Leverkusen", "numero": 3 },
+        { "nome": "Moisés Caicedo", "posicao": "MEI", "clube": "Chelsea", "numero": 8 },
+        { "nome": "Gonzalo Plata", "posicao": "ATA", "clube": "Valladolid", "numero": 17 },
+        { "nome": "Enner Valencia", "posicao": "ATA", "clube": "Internacional", "numero": 13 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "NED", "nome": "Holanda", "grupo": "F", "bandeira": "🇳🇱",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Bart Verbruggen", "posicao": "GOL", "clube": "Brighton", "numero": 1 },
+        { "nome": "Virgil van Dijk", "posicao": "DEF", "clube": "Liverpool", "numero": 4 },
+        { "nome": "Matthijs de Ligt", "posicao": "DEF", "clube": "Manchester United", "numero": 5 },
+        { "nome": "Frenkie de Jong", "posicao": "MEI", "clube": "Barcelona", "numero": 8 },
+        { "nome": "Xavi Simons", "posicao": "MEI", "clube": "PSG", "numero": 22 },
+        { "nome": "Cody Gakpo", "posicao": "ATA", "clube": "Liverpool", "numero": 11 },
+        { "nome": "Memphis Depay", "posicao": "ATA", "clube": "Corinthians", "numero": 10 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "JPN", "nome": "Japão", "grupo": "F", "bandeira": "🇯🇵",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Shuichi Gonda", "posicao": "GOL", "clube": "Shimizu S-Pulse", "numero": 12 },
+        { "nome": "Ko Itakura", "posicao": "DEF", "clube": "Borussia M'gladbach", "numero": 3 },
+        { "nome": "Wataru Endo", "posicao": "MEI", "clube": "Liverpool", "numero": 14 },
+        { "nome": "Takefusa Kubo", "posicao": "ATA", "clube": "Real Sociedad", "numero": 11 },
+        { "nome": "Daichi Kamada", "posicao": "MEI", "clube": "Crystal Palace", "numero": 10 },
+        { "nome": "Kaoru Mitoma", "posicao": "ATA", "clube": "Brighton", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "SWE", "nome": "Suécia", "grupo": "F", "bandeira": "🇸🇪",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Robin Olsen", "posicao": "GOL", "clube": "Aston Villa", "numero": 1 },
+        { "nome": "Victor Lindelöf", "posicao": "DEF", "clube": "Manchester United", "numero": 2 },
+        { "nome": "Dejan Kulusevski", "posicao": "ATA", "clube": "Tottenham", "numero": 10 },
+        { "nome": "Alexander Isak", "posicao": "ATA", "clube": "Newcastle", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "TUN", "nome": "Tunísia", "grupo": "F", "bandeira": "🇹🇳",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Aymen Dahmen", "posicao": "GOL", "clube": "Montpellier", "numero": 16 },
+        { "nome": "Nader Ghandri", "posicao": "DEF", "clube": "Al-Shabab", "numero": 5 },
+        { "nome": "Hannibal Mejbri", "posicao": "MEI", "clube": "Manchester United", "numero": 19 },
+        { "nome": "Wahbi Khazri", "posicao": "ATA", "clube": "Al Qadsiah", "numero": 10 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "BEL", "nome": "Bélgica", "grupo": "G", "bandeira": "🇧🇪",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Koen Casteels", "posicao": "GOL", "clube": "Al-Qadsiah", "numero": 1 },
+        { "nome": "Toby Alderweireld", "posicao": "DEF", "clube": "Royal Antwerp", "numero": 2 },
+        { "nome": "Kevin De Bruyne", "posicao": "MEI", "clube": "Manchester City", "numero": 7 },
+        { "nome": "Axel Witsel", "posicao": "MEI", "clube": "Atlético de Madrid", "numero": 6 },
+        { "nome": "Romelu Lukaku", "posicao": "ATA", "clube": "Napoli", "numero": 9 },
+        { "nome": "Dodi Lukebakio", "posicao": "ATA", "clube": "Sevilla", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "EGY", "nome": "Egito", "grupo": "G", "bandeira": "🇪🇬",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Mohamed El Shenawy", "posicao": "GOL", "clube": "Al-Ahly", "numero": 1 },
+        { "nome": "Omar Kamal", "posicao": "DEF", "clube": "Zamalek SC", "numero": 5 },
+        { "nome": "Emam Ashour", "posicao": "MEI", "clube": "Al-Ahly", "numero": 8 },
+        { "nome": "Mohamed Salah", "posicao": "ATA", "clube": "Liverpool", "numero": 10 },
+        { "nome": "Omar Marmoush", "posicao": "ATA", "clube": "Manchester City", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "IRN", "nome": "Irã", "grupo": "G", "bandeira": "🇮🇷",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Alireza Beiranvand", "posicao": "GOL", "clube": "Persepolis", "numero": 1 },
+        { "nome": "Ehsan Hajsafi", "posicao": "DEF", "clube": "Panathinaikos", "numero": 3 },
+        { "nome": "Mehdi Taremi", "posicao": "ATA", "clube": "Inter de Milão", "numero": 9 },
+        { "nome": "Ali Gholizadeh", "posicao": "ATA", "clube": "Kayserispor", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "NZL", "nome": "Nova Zelândia", "grupo": "G", "bandeira": "🇳🇿",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Oliver Sail", "posicao": "GOL", "clube": "FK Jablonec", "numero": 1 },
+        { "nome": "Winston Reid", "posicao": "DEF", "clube": "Brentford", "numero": 5 },
+        { "nome": "Liberato Cacace", "posicao": "DEF", "clube": "Empoli", "numero": 3 },
+        { "nome": "Chris Wood", "posicao": "ATA", "clube": "Nottingham Forest", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "ESP", "nome": "Espanha", "grupo": "H", "bandeira": "🇪🇸",
+      "titulos_copa": 1, "anos_titulo": [2010],
+      "elenco": [
+        { "nome": "Unai Simón", "posicao": "GOL", "clube": "Athletic Club", "numero": 1 },
+        { "nome": "Dani Carvajal", "posicao": "DEF", "clube": "Real Madrid", "numero": 2 },
+        { "nome": "Aymeric Laporte", "posicao": "DEF", "clube": "Al-Nassr", "numero": 14 },
+        { "nome": "Rodri", "posicao": "MEI", "clube": "Manchester City", "numero": 16 },
+        { "nome": "Pedri", "posicao": "MEI", "clube": "Barcelona", "numero": 8 },
+        { "nome": "Lamine Yamal", "posicao": "ATA", "clube": "Barcelona", "numero": 19 },
+        { "nome": "Dani Olmo", "posicao": "ATA", "clube": "Barcelona", "numero": 10 },
+        { "nome": "Álvaro Morata", "posicao": "ATA", "clube": "AC Milan", "numero": 7 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "BRA", "vitorias": 4, "empates": 3, "derrotas": 4 }
+      ]
+    },
+    {
+      "codigo": "CPV", "nome": "Cabo Verde", "grupo": "H", "bandeira": "🇨🇻",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Vozinha", "posicao": "GOL", "clube": "Estoril Praia", "numero": 1 },
+        { "nome": "Dylan Tavares", "posicao": "DEF", "clube": "Bayer Leverkusen", "numero": 5 },
+        { "nome": "Garry Rodrigues", "posicao": "ATA", "clube": "Göztepe SK", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "KSA", "nome": "Arábia Saudita", "grupo": "H", "bandeira": "🇸🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Mohammed Al-Owais", "posicao": "GOL", "clube": "Al-Hilal", "numero": 1 },
+        { "nome": "Ali Al-Bulaihi", "posicao": "DEF", "clube": "Al-Hilal", "numero": 6 },
+        { "nome": "Saleh Al-Shehri", "posicao": "ATA", "clube": "Al-Hilal", "numero": 7 },
+        { "nome": "Firas Al-Buraikan", "posicao": "ATA", "clube": "Al-Fateh", "numero": 17 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "URU", "nome": "Uruguai", "grupo": "H", "bandeira": "🇺🇾",
+      "titulos_copa": 2, "anos_titulo": [1930, 1950],
+      "elenco": [
+        { "nome": "Sergio Rochet", "posicao": "GOL", "clube": "Nacional", "numero": 1 },
+        { "nome": "José María Giménez", "posicao": "DEF", "clube": "Atlético de Madrid", "numero": 2 },
+        { "nome": "Diego Godín", "posicao": "DEF", "clube": "Vélez Sársfield", "numero": 3 },
+        { "nome": "Federico Valverde", "posicao": "MEI", "clube": "Real Madrid", "numero": 8 },
+        { "nome": "Darwin Núñez", "posicao": "ATA", "clube": "Liverpool", "numero": 9 },
+        { "nome": "Luis Suárez", "posicao": "ATA", "clube": "Inter Miami", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "FRA", "nome": "França", "grupo": "I", "bandeira": "🇫🇷",
+      "titulos_copa": 2, "anos_titulo": [1998, 2018],
+      "elenco": [
+        { "nome": "Mike Maignan", "posicao": "GOL", "clube": "AC Milan", "numero": 16 },
+        { "nome": "Jules Koundé", "posicao": "DEF", "clube": "Barcelona", "numero": 5 },
+        { "nome": "Ibrahima Konaté", "posicao": "DEF", "clube": "Liverpool", "numero": 23 },
+        { "nome": "Aurelien Tchouaméni", "posicao": "MEI", "clube": "Real Madrid", "numero": 8 },
+        { "nome": "Adrien Rabiot", "posicao": "MEI", "clube": "Juventus", "numero": 14 },
+        { "nome": "Antoine Griezmann", "posicao": "ATA", "clube": "Atlético de Madrid", "numero": 7 },
+        { "nome": "Kylian Mbappé", "posicao": "ATA", "clube": "Real Madrid", "numero": 10 },
+        { "nome": "Ousmane Dembélé", "posicao": "ATA", "clube": "PSG", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "BRA", "vitorias": 3, "empates": 3, "derrotas": 3 }
+      ]
+    },
+    {
+      "codigo": "SEN", "nome": "Senegal", "grupo": "I", "bandeira": "🇸🇳",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Édouard Mendy", "posicao": "GOL", "clube": "Al-Ahli", "numero": 16 },
+        { "nome": "Kalidou Koulibaly", "posicao": "DEF", "clube": "Al-Hilal", "numero": 3 },
+        { "nome": "Idrissa Gueye", "posicao": "MEI", "clube": "Everton", "numero": 16 },
+        { "nome": "Sadio Mané", "posicao": "ATA", "clube": "Al-Nassr", "numero": 10 },
+        { "nome": "Ismaïla Sarr", "posicao": "ATA", "clube": "Crystal Palace", "numero": 23 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "IRQ", "nome": "Iraque", "grupo": "I", "bandeira": "🇮🇶",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Jalal Hassan", "posicao": "GOL", "clube": "Al-Zawraa", "numero": 1 },
+        { "nome": "Amjad Attwan", "posicao": "DEF", "clube": "Al-Zawraa", "numero": 5 },
+        { "nome": "Aymen Hussein", "posicao": "ATA", "clube": "Westerlo", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "NOR", "nome": "Noruega", "grupo": "I", "bandeira": "🇳🇴",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Rune Jarstein", "posicao": "GOL", "clube": "Hertha Berlin", "numero": 1 },
+        { "nome": "Leo Skiri Østigård", "posicao": "DEF", "clube": "Napoli", "numero": 5 },
+        { "nome": "Martin Ødegaard", "posicao": "MEI", "clube": "Arsenal", "numero": 8 },
+        { "nome": "Erling Haaland", "posicao": "ATA", "clube": "Manchester City", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "ARG", "nome": "Argentina", "grupo": "J", "bandeira": "🇦🇷",
+      "titulos_copa": 3, "anos_titulo": [1978, 1986, 2022],
+      "elenco": [
+        { "nome": "Emiliano Martínez", "posicao": "GOL", "clube": "Aston Villa", "numero": 23 },
+        { "nome": "Nahuel Molina", "posicao": "DEF", "clube": "Atlético de Madrid", "numero": 26 },
+        { "nome": "Cristian Romero", "posicao": "DEF", "clube": "Tottenham", "numero": 13 },
+        { "nome": "Lisandro Martínez", "posicao": "DEF", "clube": "Manchester United", "numero": 5 },
+        { "nome": "Rodrigo De Paul", "posicao": "MEI", "clube": "Atlético de Madrid", "numero": 7 },
+        { "nome": "Enzo Fernández", "posicao": "MEI", "clube": "Chelsea", "numero": 8 },
+        { "nome": "Alexis Mac Allister", "posicao": "MEI", "clube": "Liverpool", "numero": 20 },
+        { "nome": "Lionel Messi", "posicao": "ATA", "clube": "Inter Miami", "numero": 10 },
+        { "nome": "Julián Álvarez", "posicao": "ATA", "clube": "Atlético de Madrid", "numero": 9 },
+        { "nome": "Lautaro Martínez", "posicao": "ATA", "clube": "Inter de Milão", "numero": 22 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [
+        { "adversario": "BRA", "vitorias": 41, "empates": 25, "derrotas": 44 },
+        { "adversario": "GER", "vitorias": 16, "empates": 9, "derrotas": 18 },
+        { "adversario": "FRA", "vitorias": 6, "empates": 3, "derrotas": 3 }
+      ]
+    },
+    {
+      "codigo": "ALG", "nome": "Argélia", "grupo": "J", "bandeira": "🇩🇿",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Rais M'Bolhi", "posicao": "GOL", "clube": "Al-Ettifaq", "numero": 1 },
+        { "nome": "Djamel Benlamri", "posicao": "DEF", "clube": "Lyon", "numero": 6 },
+        { "nome": "Yacine Brahimi", "posicao": "MEI", "clube": "Al-Rayyan", "numero": 7 },
+        { "nome": "Islam Slimani", "posicao": "ATA", "clube": "CR Belouizdad", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "AUT", "nome": "Áustria", "grupo": "J", "bandeira": "🇦🇹",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Patrick Pentz", "posicao": "GOL", "clube": "Bayer Leverkusen", "numero": 1 },
+        { "nome": "David Alaba", "posicao": "DEF", "clube": "Real Madrid", "numero": 8 },
+        { "nome": "Marcel Sabitzer", "posicao": "MEI", "clube": "Borussia Dortmund", "numero": 7 },
+        { "nome": "Christoph Baumgartner", "posicao": "MEI", "clube": "RB Leipzig", "numero": 10 },
+        { "nome": "Marko Arnautović", "posicao": "ATA", "clube": "Manchester United", "numero": 28 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "JOR", "nome": "Jordânia", "grupo": "J", "bandeira": "🇯🇴",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Yazeed Abulaila", "posicao": "GOL", "clube": "Al-Wehdah", "numero": 1 },
+        { "nome": "Musa Al Taamari", "posicao": "ATA", "clube": "Montpellier", "numero": 11 },
+        { "nome": "Baha' Faisal", "posicao": "MEI", "clube": "Al-Ahly Amman", "numero": 10 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "POR", "nome": "Portugal", "grupo": "K", "bandeira": "🇵🇹",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Diogo Costa", "posicao": "GOL", "clube": "FC Porto", "numero": 1 },
+        { "nome": "Rúben Dias", "posicao": "DEF", "clube": "Manchester City", "numero": 4 },
+        { "nome": "João Cancelo", "posicao": "DEF", "clube": "Barcelona", "numero": 20 },
+        { "nome": "Bruno Fernandes", "posicao": "MEI", "clube": "Manchester United", "numero": 8 },
+        { "nome": "Vitinha", "posicao": "MEI", "clube": "PSG", "numero": 16 },
+        { "nome": "Bernardo Silva", "posicao": "MEI", "clube": "Manchester City", "numero": 10 },
+        { "nome": "Rafael Leão", "posicao": "ATA", "clube": "AC Milan", "numero": 17 },
+        { "nome": "Gonçalo Ramos", "posicao": "ATA", "clube": "PSG", "numero": 9 },
+        { "nome": "Cristiano Ronaldo", "posicao": "ATA", "clube": "Al-Nassr", "numero": 7 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "COD", "nome": "Congo DR", "grupo": "K", "bandeira": "🇨🇩",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Joël Kiassumbua", "posicao": "GOL", "clube": "Beerschot", "numero": 1 },
+        { "nome": "Marcel Tisserand", "posicao": "DEF", "clube": "Fenerbahçe", "numero": 5 },
+        { "nome": "Chancel Mbemba", "posicao": "DEF", "clube": "Olympique de Marseille", "numero": 3 },
+        { "nome": "Cédric Bakambu", "posicao": "ATA", "clube": "Olympique de Marseille", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "UZB", "nome": "Uzbequistão", "grupo": "K", "bandeira": "🇺🇿",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Utkir Yusupov", "posicao": "GOL", "clube": "FC Lokomotiv Tashkent", "numero": 1 },
+        { "nome": "Otabek Shukurov", "posicao": "DEF", "clube": "FC Pakhtakor", "numero": 2 },
+        { "nome": "Eldor Shomurodov", "posicao": "ATA", "clube": "AS Roma", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "COL", "nome": "Colômbia", "grupo": "K", "bandeira": "🇨🇴",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Camilo Vargas", "posicao": "GOL", "clube": "Atlas", "numero": 1 },
+        { "nome": "Davinson Sánchez", "posicao": "DEF", "clube": "Galatasaray", "numero": 2 },
+        { "nome": "Wilmar Barrios", "posicao": "MEI", "clube": "Zenit", "numero": 5 },
+        { "nome": "James Rodríguez", "posicao": "MEI", "clube": "Rayo Vallecano", "numero": 10 },
+        { "nome": "Luis Díaz", "posicao": "ATA", "clube": "Liverpool", "numero": 7 },
+        { "nome": "Rafael Santos Borré", "posicao": "ATA", "clube": "Eintracht Frankfurt", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "ENG", "nome": "Inglaterra", "grupo": "L", "bandeira": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "titulos_copa": 1, "anos_titulo": [1966],
+      "elenco": [
+        { "nome": "Jordan Pickford", "posicao": "GOL", "clube": "Everton", "numero": 1 },
+        { "nome": "Trent Alexander-Arnold", "posicao": "DEF", "clube": "Real Madrid", "numero": 66 },
+        { "nome": "John Stones", "posicao": "DEF", "clube": "Manchester City", "numero": 5 },
+        { "nome": "Harry Maguire", "posicao": "DEF", "clube": "Manchester United", "numero": 6 },
+        { "nome": "Jude Bellingham", "posicao": "MEI", "clube": "Real Madrid", "numero": 10 },
+        { "nome": "Declan Rice", "posicao": "MEI", "clube": "Arsenal", "numero": 41 },
+        { "nome": "Bukayo Saka", "posicao": "ATA", "clube": "Arsenal", "numero": 7 },
+        { "nome": "Phil Foden", "posicao": "ATA", "clube": "Manchester City", "numero": 47 },
+        { "nome": "Harry Kane", "posicao": "ATA", "clube": "Bayern München", "numero": 9 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "CRO", "nome": "Croácia", "grupo": "L", "bandeira": "🇭🇷",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Dominik Livaković", "posicao": "GOL", "clube": "Fenerbahçe", "numero": 1 },
+        { "nome": "Josip Šutalo", "posicao": "DEF", "clube": "Ajax", "numero": 5 },
+        { "nome": "Mateo Kovačić", "posicao": "MEI", "clube": "Manchester City", "numero": 8 },
+        { "nome": "Luka Modrić", "posicao": "MEI", "clube": "Real Madrid", "numero": 10 },
+        { "nome": "Ivan Perišić", "posicao": "ATA", "clube": "Hajduk Split", "numero": 4 },
+        { "nome": "Bruno Petković", "posicao": "ATA", "clube": "Dinamo Zagreb", "numero": 16 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "GHA", "nome": "Gana", "grupo": "L", "bandeira": "🇬🇭",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Lawrence Ati Zigi", "posicao": "GOL", "clube": "FC St. Gallen", "numero": 1 },
+        { "nome": "Daniel Amartey", "posicao": "DEF", "clube": "Fenerbahçe", "numero": 5 },
+        { "nome": "Thomas Partey", "posicao": "MEI", "clube": "Arsenal", "numero": 5 },
+        { "nome": "Jordan Ayew", "posicao": "ATA", "clube": "Crystal Palace", "numero": 11 },
+        { "nome": "Inaki Williams", "posicao": "ATA", "clube": "Athletic Club", "numero": 14 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "PAN", "nome": "Panamá", "grupo": "L", "bandeira": "🇵🇦",
+      "titulos_copa": 0, "anos_titulo": [],
+      "elenco": [
+        { "nome": "Luis Mejía", "posicao": "GOL", "clube": "Parma", "numero": 1 },
+        { "nome": "Fidel Escobar", "posicao": "DEF", "clube": "Red Bulls de Nova York", "numero": 4 },
+        { "nome": "Éric Davis", "posicao": "DEF", "clube": "Houston Dynamo", "numero": 23 },
+        { "nome": "Adalberto Carrasquilla", "posicao": "MEI", "clube": "Houston Dynamo", "numero": 10 },
+        { "nome": "Ismael Díaz", "posicao": "ATA", "clube": "Sochaux", "numero": 11 }
+      ],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": []
+    },
+    {
+      "codigo": "ITA", "nome": "Itália", "grupo": null, "bandeira": "🇮🇹",
+      "titulos_copa": 4, "anos_titulo": [1934, 1938, 1982, 2006],
+      "elenco": [],
+      "stats_torneio": { "jogos": 0, "vitorias": 0, "empates": 0, "derrotas": 0, "gols_pro": 0, "gols_contra": 0, "pontos": 0 },
+      "confrontos_diretos": [],
+      "nota": "Não classificada para a Copa 2026"
+    }
+  ]
+}

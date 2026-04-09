@@ -1,0 +1,132 @@
+<h2>Como deve funcionar a navegação entre as 7 seções?</h2>
+<p class="subtitle">O site é mobile-first — a navegação precisa funcionar bem no celular</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="bottom-nav" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="font-family:sans-serif;background:#0d0a1e;border-radius:6px;overflow:hidden;position:relative;min-height:160px;">
+        <!-- Top bar -->
+        <div style="background:linear-gradient(90deg,#BF0A30,#002868);padding:8px 12px;">
+          <span style="color:#FFD700;font-weight:700;font-size:10px;">⚽ WORLD CUP 2026</span>
+        </div>
+        <!-- Content area -->
+        <div style="padding:10px;background:#111;min-height:90px;">
+          <div style="color:#FFD700;font-size:8px;font-weight:700;margin-bottom:6px;">HOJE · 14 JUN</div>
+          <div style="background:#1a0a20;border-radius:4px;padding:6px;margin-bottom:4px;display:flex;justify-content:space-between;">
+            <span style="color:#fff;font-size:7px;">🇧🇷 Brasil vs 🇲🇽 México</span>
+            <span style="color:#FFD700;font-size:7px;">19h</span>
+          </div>
+          <div style="background:#1a0a20;border-radius:4px;padding:6px;display:flex;justify-content:space-between;">
+            <span style="color:#aaa;font-size:7px;">🇩🇪 Alemanha vs 🇯🇵 Japão</span>
+            <span style="color:#aaa;font-size:7px;">22h</span>
+          </div>
+        </div>
+        <!-- Bottom navigation -->
+        <div style="background:#0d0a1e;border-top:1px solid #333;display:flex;justify-content:space-around;padding:6px 0;">
+          <div style="text-align:center;">
+            <div style="font-size:12px;">🏠</div>
+            <div style="color:#FFD700;font-size:6px;font-weight:700;">Home</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:12px;">📅</div>
+            <div style="color:#aaa;font-size:6px;">Jogos</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:12px;">🏆</div>
+            <div style="color:#aaa;font-size:6px;">Grupos</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:12px;">🌍</div>
+            <div style="color:#aaa;font-size:6px;">Seleções</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:12px;">•••</div>
+            <div style="color:#aaa;font-size:6px;">Mais</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A) Bottom Nav + "Mais"</h3>
+      <p>4 seções principais fixas na barra inferior (Home, Jogos, Grupos, Seleções). "Mais" abre um menu com Estatísticas, Histórico e Sedes. Padrão de apps móveis nativos.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="hamburger" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="font-family:sans-serif;background:#0d0a1e;border-radius:6px;overflow:hidden;">
+        <!-- Top bar with hamburger -->
+        <div style="background:linear-gradient(90deg,#BF0A30,#002868);padding:8px 12px;display:flex;justify-content:space-between;align-items:center;">
+          <span style="color:#FFD700;font-weight:700;font-size:10px;">⚽ WC 2026</span>
+          <div style="display:flex;flex-direction:column;gap:2px;cursor:pointer;">
+            <div style="width:14px;height:1.5px;background:#fff;"></div>
+            <div style="width:14px;height:1.5px;background:#fff;"></div>
+            <div style="width:14px;height:1.5px;background:#fff;"></div>
+          </div>
+        </div>
+        <!-- Drawer aberto -->
+        <div style="display:flex;">
+          <div style="background:#1a0a20;width:110px;padding:8px;border-right:1px solid #333;">
+            <div style="color:#FFD700;font-size:8px;font-weight:700;padding:4px 6px;border-radius:3px;background:rgba(255,215,0,0.1);margin-bottom:3px;">🏠 Home</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;margin-bottom:3px;">📅 Jogos</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;margin-bottom:3px;">🏆 Grupos</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;margin-bottom:3px;">🌍 Seleções</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;margin-bottom:3px;">📊 Stats</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;margin-bottom:3px;">📜 Histórico</div>
+            <div style="color:#aaa;font-size:8px;padding:4px 6px;">🏟️ Sedes</div>
+          </div>
+          <div style="padding:10px;background:#111;flex:1;">
+            <div style="color:#FFD700;font-size:8px;font-weight:700;margin-bottom:6px;">HOJE</div>
+            <div style="background:#1a0a20;border-radius:4px;padding:6px;">
+              <div style="color:#fff;font-size:7px;">🇧🇷 Brasil vs 🇲🇽 México</div>
+              <div style="color:#FFD700;font-size:7px;">19h · Los Angeles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B) Hamburger + Drawer lateral</h3>
+      <p>Ícone ☰ no topo abre um drawer com todas as 7 seções. Mais espaço para conteúdo na tela principal. Familiar em sites desktop também.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="top-scroll" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="font-family:sans-serif;background:#0d0a1e;border-radius:6px;overflow:hidden;">
+        <!-- Top bar -->
+        <div style="background:linear-gradient(90deg,#BF0A30,#002868);padding:8px 12px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="color:#FFD700;font-weight:700;font-size:10px;">⚽ WC 2026</span>
+          </div>
+          <!-- Scrollable tabs -->
+          <div style="display:flex;gap:6px;overflow:hidden;">
+            <div style="background:rgba(255,255,255,0.25);color:#fff;padding:4px 8px;border-radius:12px;font-size:7px;white-space:nowrap;font-weight:700;">Home</div>
+            <div style="color:rgba(255,255,255,0.7);padding:4px 8px;font-size:7px;white-space:nowrap;">Jogos</div>
+            <div style="color:rgba(255,255,255,0.7);padding:4px 8px;font-size:7px;white-space:nowrap;">Grupos</div>
+            <div style="color:rgba(255,255,255,0.7);padding:4px 8px;font-size:7px;white-space:nowrap;">Seleções</div>
+            <div style="color:rgba(255,255,255,0.7);padding:4px 8px;font-size:7px;white-space:nowrap;">→</div>
+          </div>
+        </div>
+        <!-- Content -->
+        <div style="padding:10px;background:#111;">
+          <div style="color:#FFD700;font-size:8px;font-weight:700;margin-bottom:6px;">HOJE · 14 JUN</div>
+          <div style="background:#1a0a20;border-radius:4px;padding:6px;margin-bottom:4px;display:flex;justify-content:space-between;">
+            <span style="color:#fff;font-size:7px;">🇧🇷 Brasil vs 🇲🇽 México</span>
+            <span style="color:#FFD700;font-size:7px;">19h</span>
+          </div>
+          <div style="background:#1a0a20;border-radius:4px;padding:6px;display:flex;justify-content:space-between;">
+            <span style="color:#aaa;font-size:7px;">🇩🇪 Alemanha vs 🇯🇵 Japão</span>
+            <span style="color:#aaa;font-size:7px;">22h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C) Top Tabs com scroll horizontal</h3>
+      <p>Abas no topo deslizáveis horizontalmente — todas as 7 seções sempre visíveis com scroll. Padrão do Google, YouTube Mobile. Simples e familiar.</p>
+    </div>
+  </div>
+
+</div>
