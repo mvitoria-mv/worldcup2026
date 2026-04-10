@@ -2,7 +2,7 @@
 
 Site informativo e estatístico da Copa do Mundo FIFA 2026 (EUA · México · Canadá), construído com HTML, CSS e JavaScript puros — sem frameworks, sem bundler, sem dependências de backend.
 
-![Preview](print/print.png)
+![Preview](print/preview.png)
 
 ---
 
